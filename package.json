@@ -5,7 +5,9 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "index": "nodemon --config nodemon.json src/index.ts"
+    "index": "nodemon --config nodemon.json src/index.ts",
+    "remove": "nodemon --config nodemon.json src/remove-empty-properties/r-empty-props.ts",
+    "getprops": "nodemon --config nodemon.json src/get-object-properties/g-obj-props.ts"
   },
   "repository": {
     "type": "git",

@@ -3,5 +3,4 @@ function greet(name: string): void {
 }
 
 const readerName = "Michael";
-debugger;
 greet(readerName);
